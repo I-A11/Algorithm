@@ -16,7 +16,7 @@ Example:
 // };
 
 function power(number, exponent) {
-  if (exponent == 0) {
+  if (exponent === 0) {
     return 1;
   } else if (exponent < 0) {
     return (1 / number) * power(number, exponent + 1);
